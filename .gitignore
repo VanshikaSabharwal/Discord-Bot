@@ -44,5 +44,5 @@ out/
 coverage/
 
 # Optional lock files (uncomment if you do **not** want to ignore)
-# package-lock.json
+package-lock.json
 # yarn.lock

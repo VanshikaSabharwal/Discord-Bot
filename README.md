@@ -78,11 +78,42 @@ cp .env.example .env
 Then edit `.env` and fill in your credentials:
 
 ```env
-DISCORD_TOKEN=your_discord_bot_token_here
-MONGODB_URI=your_mongodb_connection_string_here
-CLIENT_ID=your_discord_client_id_here
-GUILD_ID=your_discord_guild_id_here
+# ===============================
+# Discord Bot Configuration
+# ===============================
+
+# Your Discord application (bot) ID
+DISCORD_APPLICATION_ID=your_discord_application_id_here
+
+# Your Discord bot public key (used for verifying interactions)
+DISCORD_PUBLIC_KEY=your_discord_public_key_here
+
+# Your Discord bot token
+DISCORD_TOKEN=your_discord_token_here
+
+# Permissions integer for inviting the bot
+DISCORD_PERMISSIONS_INTEGER=your_discord_permissions_integer_here
+
+# Generated OAuth2 URL for bot invite
+DISCORD_GENERATED_URL=your_discord_generated_url_here
+
+# Your server (guild) ID for slash commands
+DISCORD_GUILD_ID=your_discord_guild_id_here
+
+# ===============================
+# MongoDB Configuration
+# ===============================
+
+# MongoDB connection string
+MONGO_URI=your_mongodb_connection_string_here
+
+# ===============================
+# Server Configuration
+# ===============================
+
+# Port for the API server
 PORT=3000
+
 ```
 
 ### 3. Install Dependencies

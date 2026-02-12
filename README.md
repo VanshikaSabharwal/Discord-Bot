@@ -294,3 +294,9 @@ If you have any questions or need help, please:
 - [Express.js](https://expressjs.com/) - Web framework for API
 
 ---
+
+##  Invite the Bot
+
+You can invite the bot to your Discord server using the link below:  
+
+[Invite Discord Bot](https://discord.com/oauth2/authorize?client_id=1471440646932926534&permissions=2147559504&integration_type=0&scope=applications.commands+bot)

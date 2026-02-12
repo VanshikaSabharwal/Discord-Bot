@@ -63,8 +63,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd <repository-name>
+git clone https://github.com/VanshikaSabharwal/Discord-Bot.git
+cd Discord-Bot
 ```
 
 ### 2. Set Up Environment Variables
@@ -93,11 +93,11 @@ npm install
 
 ---
 
-## 🎮 Usage
+##  Usage
 
 The bot can run in two different modes depending on your needs:
 
-### Mode 1: MongoDB Mode 🗄️
+### Mode 1: MongoDB Mode 
 
 **Best for**: Large-scale deployments with extensive message history
 
@@ -118,8 +118,8 @@ This command runs both the API server and the bot:
 Once running, you can test the search functionality via HTTP:
 
 ```bash
-# Search for messages containing "pikachu" with a limit of 10 results
-http://localhost:3000/search?word=pikachu&limit=10
+# Search for messages containing "cold" with a limit of 10 results
+http://localhost:3000/search?word=cold&limit=10
 ```
 
 **API Endpoint Details:**
@@ -139,7 +139,7 @@ curl "http://localhost:3000/search?word=hello&limit=5"
 curl "http://localhost:3000/search?word=discord"
 
 # Search for another term
-curl "http://localhost:3000/search?word=pikachu&limit=20"
+curl "http://localhost:3000/search?word=cold&limit=20"
 ```
 
 ---
@@ -170,7 +170,7 @@ In your Discord server, use the following command:
 
 **Example:**
 ```
-/search word:pikachu limit:10
+/search word:cold limit:10
 ```
 
 ---

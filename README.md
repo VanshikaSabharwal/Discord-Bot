@@ -1,4 +1,4 @@
-# Discord Bot with MongoDB Integration
+# Discord Bot
 
 A powerful Discord bot with dual operational modes: MongoDB-backed message storage for handling large-scale word queries and a lightweight slash command interface for quick searches.
 
